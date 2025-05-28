@@ -1,0 +1,46 @@
+/* styleLogin.css */
+
+.root {
+    -fx-background-color: #f0f4f8;
+    -fx-padding: 30;
+    -fx-alignment: center;
+    -fx-spacing: 12;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-pref-height: 35px;
+    -fx-font-size: 13px;
+    -fx-background-radius: 5;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-padding: 0 0 0 8;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+#loginStatus {
+    -fx-text-fill: red;
+    -fx-font-weight: normal;
+    -fx-font-size: 12px;
+}
+
+
