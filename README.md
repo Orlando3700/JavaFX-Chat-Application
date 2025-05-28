@@ -31,7 +31,6 @@ A simple chat application built using JavaFX and MySQL. This application allows 
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/Orlando3700/JavaFX-Chat-Application.git
 cd javafx-chat-application
 
